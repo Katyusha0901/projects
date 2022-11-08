@@ -4,6 +4,7 @@
   width: 80%;
   margin-bottom: 10px;
   padding: 10px;
+
   background-color: rgb(119, 0, 255, .5);
 
   gap: 20px;
@@ -13,7 +14,6 @@
 .n {
   width: 100px;
   height: 100px;
-  
 
   background-color: rgb(255, 165, 0, .5);
 }
@@ -47,7 +47,7 @@
 .c3_right2 {
   display: flex;
 
-  gap: 28px;
+  gap: 20px;
 }
 
 .n_3_grow {
@@ -107,9 +107,7 @@
 }
 
 .c8 {
-  
   justify-content: space-around;
-  
   row-gap: 50px ;
 }
 
@@ -117,8 +115,6 @@
   width: 100px;
   margin-right: 10px;
   margin-left: 10px ;
-
-  
 }
 
 .c8_center {
