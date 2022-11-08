@@ -123,26 +123,17 @@
 
 .c9 {
   justify-content: space-around;
-  row-gap: 50px ;
 }
 
 .c10 {
-  display: flex;
-
   height: 150px;
 }
 
 .n10 {
-  width: 100px;
-  margin-right: 10px;
-  margin-left: 10px ;
-
   align-self: flex-end;
 }
 
 .c11 {
-  width: 80%;
-
   flex-wrap: wrap;
 }
 
@@ -155,16 +146,10 @@
 }
 
 .c12 {
-  display: flex;
-
   height: 150px;
 }
 
 .n12 {
-  width: 100px;
-  margin-right: 10px;
-  margin-left: 10px ;
-
   align-self: flex-end;
 }
 
@@ -174,6 +159,6 @@
   height: 150px;
 }
 
-.n13:nth-child(2n) {
+.n13:nth-child(even) {
   align-self: flex-end;
 }
