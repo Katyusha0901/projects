@@ -64,43 +64,20 @@
   flex-grow: 1;
 }
 
-.n6_1 {
-  width: 97%;
-  height: 100px;
-
-  background-color: rgb(255, 165, 0, .5);
+.c6 {
+  overflow: auto;
 }
 
-.n6_2 {
-  width: 150%;
-  height: 100px;
-  margin: 10px;
+.n6 {
+  width: 60%;
 
-  background-color: rgb(255, 165, 0, .5);
+  flex-shrink: 0;
 }
 
-.c6_left {
-  width: 50%;
-}
+.n7 {
+  width: 60%;
 
-.c6_right {
-  overflow: scroll;
-
-  width: 50%;
-}
-
-.n7_1 {
-  width: 50%;
-  margin: 10px;
-}
-
-.c7_right {
-  width: 50%;
-}
-
-.n7_2 {
-  width: 160%;
-  margin: 10px;
+  flex-shrink: 0;
 }
 
 .c8 {
