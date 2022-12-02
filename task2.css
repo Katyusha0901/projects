@@ -1,0 +1,21 @@
+.first {
+  width: 50%;
+
+  background-color: antiquewhite;
+}
+
+p:nth-of-type(2n) {
+  background-color: cadetblue;
+}
+
+p:nth-of-type(3n) {
+    background-color: rgb(154, 95, 160);
+  }
+  
+p:nth-of-type(3n) {
+    background-color: rgb(154, 95, 160);
+  }
+
+p:nth-of-type(4n+7) {
+    background-color: rgb(37, 23, 116);
+}
