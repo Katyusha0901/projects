@@ -4,18 +4,73 @@
   background-color: antiquewhite;
 }
 
-p:nth-of-type(2n) {
+.first p:nth-of-type(2n) {
   background-color: cadetblue;
 }
 
-p:nth-of-type(3n) {
-    background-color: rgb(154, 95, 160);
-  }
-  
-p:nth-of-type(3n) {
-    background-color: rgb(154, 95, 160);
-  }
+.first p:nth-of-type(3n) {
+  background-color: rgb(154, 95, 160);
+}
 
-p:nth-of-type(4n+7) {
-    background-color: rgb(37, 23, 116);
+.first p:nth-of-type(3n) {
+  background-color: rgb(154, 95, 160);
+}
+
+.first p:nth-of-type(4n+7) {
+  background-color: rgb(37, 23, 116);
+}
+
+
+.second {
+  width: 50%;
+  margin-top: 50px;
+
+  background-color: rgb(204, 206, 247);
+}
+
+.second p:nth-child(2n) {
+  background-color: blueviolet;
+}
+
+.second p:nth-child(3n) {
+  background-color: rgb(224, 217, 114);
+}
+
+.second p:nth-child(4n+7) {
+  background-color: rgb(155, 241, 194);
+}
+
+.third {
+  width: 50%;
+  margin-top: 50px;
+
+  background-color: rgb(247, 204, 242);
+}
+
+.third p:nth-last-of-type(2n) {
+  background-color: rgb(34, 147, 233);
+}
+
+button {
+  position: relative;
+
+  width: 100px;
+  height: 80px;
+  margin: 50px;
+
+  background-color: aqua;
+}
+
+button:hover {
+  top: -4px;
+  left: -4px;
+
+  box-shadow: 2px 2px rgba(0,0,0,.25);
+}
+
+button:active {
+  top: 0;
+  left: 0;
+
+  box-shadow: none;
 }
