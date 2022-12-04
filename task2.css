@@ -8,46 +8,80 @@
   background-color: cadetblue;
 }
 
-.first p:nth-of-type(3n) {
-  background-color: rgb(154, 95, 160);
-}
-
-.first p:nth-of-type(3n) {
-  background-color: rgb(154, 95, 160);
-}
-
-.first p:nth-of-type(4n+7) {
-  background-color: rgb(37, 23, 116);
-}
-
-
 .second {
   width: 50%;
   margin-top: 50px;
 
-  background-color: rgb(204, 206, 247);
+  background-color: rgb(86, 93, 228);
 }
 
-.second p:nth-child(2n) {
-  background-color: blueviolet;
-}
-
-.second p:nth-child(3n) {
-  background-color: rgb(224, 217, 114);
-}
-
-.second p:nth-child(4n+7) {
-  background-color: rgb(155, 241, 194);
+.second p:nth-of-type(3n) {
+  background-color: rgb(154, 95, 160);
 }
 
 .third {
   width: 50%;
   margin-top: 50px;
 
+  background-color: rgb(86, 93, 228);
+}
+
+.third p:nth-of-type(3n) {
+  background-color: rgb(154, 95, 160);
+}
+
+.fourth {
+  width: 50%;
+  margin-top: 50px;
+
+  background-color: rgb(228, 174, 86);
+}
+
+.fourth p:nth-of-type(4n+7) {
+  background-color: rgb(37, 23, 116);
+}
+
+.fifth {
+  width: 50%;
+  margin-top: 50px;
+
+  background-color: rgb(204, 206, 247);
+}
+
+.fifth p:nth-child(2n) {
+  background-color: blueviolet;
+}
+
+.sixth {
+  width: 50%;
+  margin-top: 50px;
+
+  background-color: rgb(186, 99, 204);
+}
+
+.sixth  p:nth-child(3n) {
+  background-color: rgb(224, 217, 114);
+}
+
+.seventh {
+  width: 50%;
+  margin-top: 50px;
+
+  background-color: rgb(204, 206, 247);
+}
+
+.seventh p:nth-child(4n+7) {
+  background-color: rgb(155, 241, 194);
+}
+
+.eighth {
+  width: 50%;
+  margin-top: 50px;
+
   background-color: rgb(247, 204, 242);
 }
 
-.third p:nth-last-of-type(2n) {
+.eighth p:nth-last-of-type(2n) {
   background-color: rgb(34, 147, 233);
 }
 
