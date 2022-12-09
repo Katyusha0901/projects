@@ -1,12 +1,11 @@
-.square::after {
-  position: absolute;
+.square {
+  position: relative;
 
-  width: 10px;
-  height: 10px;
+  width: 60px;
+  height: 60px;
+  margin: 30px;
 
-  content: '';
-
-  background-color: rgb(0, 255, 132);
+  background-color: brown;
 }
 
 .square::before {
@@ -20,50 +19,57 @@
   background-color: rgb(0, 255, 132);
 }
 
-.square {
-  position: relative;
+.square::after {
+  position: absolute;
 
-  width: 60px;
-  height: 60px;
-  margin: 30px;
+  width: 10px;
+  height: 10px;
 
-  background-color: brown;
-}
+  content: '';
 
-.first::after {
-  top: 0%;
-  right: 0%;
-  transform: translate(50%, -50%);
+  background-color: rgb(0, 255, 132);
 }
 
 .first::before {
-    top: 0%;
- left: 0%;
+  top: 0;
+  left: 0;
+
   transform: translate(-50%, -50%);
-  }
+}
 
+.first::after {
+  top: 0;
+  right: 0;
 
-
-.second::after {
-  top: 50%;
-  right: 0%;
   transform: translate(50%, -50%);
 }
 
 .second::before {
-  bottom: 0%;
-  left: 0%;
+  bottom: 0;
+  left: 0;
+
   transform: translate(-50%, 50%);
 }
 
-.third::after {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.second::after {
+  top: 50%;
+  right: 0;
+
+  transform: translate(50%, -50%);
 }
 
 .third::before {
-  top: 0%;
+  top: 0;
   left: 50%;
+
   transform: translate(-50%, -50%);
 }
+
+.third::after {
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+
