@@ -1,0 +1,62 @@
+.square::after {
+  position: absolute;
+
+  width: 20%;
+  height: 20%;
+
+  content: '';
+
+  background-color: rgb(0, 255, 132);
+}
+
+.square::before {
+  position: absolute;
+
+  width: 20%;
+  height: 20%;
+
+  content: '';
+
+  background-color: rgb(0, 255, 132);
+}
+
+.square {
+  position: relative;
+
+  width: 60px;
+  height: 60px;
+  margin: 30px;
+
+  background-color: brown;
+}
+
+.first::after {
+  top: -10%;
+  right: -10%;
+}
+
+.first::before {
+  top: -10%;
+  left: -10%;
+}
+
+
+.second::after {
+  top: 40%;
+  right: -10%;
+}
+
+.second::before {
+  bottom: -10%;
+  left: -10%;
+}
+
+.third::after {
+  top: 40%;
+  right: 40%;
+}
+
+.third::before {
+  top: -10%;
+  left: 40%;
+}
